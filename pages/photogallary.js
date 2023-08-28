@@ -70,13 +70,13 @@ export default function PhotoGallary() {
    
       <div className="grid gap-8 px-4  md:px-32 my-16 grid-cols-2 md:grid-cols-3">
         {pics.map((e, id) => (
-          <div key={id} className=" ">
+          <div key={id} className="rounded-3xl overflow-hidden ">
             <Image
               src={e.img}
               alt=""
               width={400}
               height={400}
-              className="rounded-3xl object-cover  aspect-square"
+              className=" object-cover hover:scale-105 duration-500 aspect-square"
             />
           </div>
         ))}
