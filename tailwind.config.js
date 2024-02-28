@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       sil: ["Shadows Into Light", "cursive"],
       satisfy: ["Satisfy", "cursive"],
+      logo: ["Calligraffitti", "cursive"],
     },
   },
   plugins: [require("daisyui")],
