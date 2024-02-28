@@ -6,9 +6,9 @@ export default function Videos() {
 
   useEffect(() => {
     const innerwidth = window.innerWidth;
-    if (innerwidth > 1100) {
-      setWidth(innerwidth / 3);
-    }
+    const defaultWidth = 300; 
+    const calculatedWidth = innerwidth > 1100 ? innerwidth / 3 : defaultWidth;
+    setWidth(calculatedWidth);
   }, []);
   return (
     <div className="relative">
