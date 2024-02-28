@@ -20,11 +20,12 @@ export default function Nav() {
       name: "Contact",
       link: "booking",
     },
+
   ];
   return (
     <div className="navbar text-white shadow-sm shadow-[#121a5588] bg-transparent">
       {/* mobile  */}
-      <div className="navbar-start">
+      <div className="navbar-start w-full">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -67,9 +68,9 @@ export default function Nav() {
             stiffness:100
             
           }}
-          className=" rotate-[-3deg]  mx-4 text-center tracking-widest  py-4 md:w-1/3"
+          className=" rotate-[-3deg]  md:ml-12   text-center tracking-widest  py-4 "
         >
-          <a className=" cursor-pointer  italic  font-sil   md:text-3xl font-bold">
+          <a className=" cursor-pointer  italic   font-logo   md:text-3xl font-bold">
             Rishabh Tripathy
           </a>
         </motion.div>
@@ -85,7 +86,7 @@ export default function Nav() {
             type:"spring",
             stiffness:100
         }}
-        className="navbar-center hidden  lg:flex"
+        className=" navbar-end    hidden   lg:flex"
       >
         <ul className="menu menu-horizontal px-1">
           {navItems.map((items, id) => (
@@ -101,7 +102,7 @@ export default function Nav() {
       </motion.div>
 
       {/* USER  */}
-      <div className="navbar-end mx-4">
+      {/* <div className="navbar-end mx-4">
         <div className="dropdown  my-auto  dropdown-left">
           <label
             tabIndex={0}
@@ -127,7 +128,7 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
