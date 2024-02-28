@@ -22,7 +22,7 @@ export default function Videos() {
         transition={{
           delay: 0.2,
         }}
-        className="text-5xl font-bold font-satisfy text-center"
+      className="text-5xl font-bold font-logo text-center"
       >
         <h1>Videos</h1>
       </motion.div>

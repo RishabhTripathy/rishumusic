@@ -134,10 +134,10 @@ export default function Sliders() {
         }}
         transition={{
           delay: 0.2,
-        }} className="text-5xl font-satisfy "> Social Links</motion.h2>
+        }} className="text-5xl font-logo "> Social Links</motion.h2>
       <Slider {...settings}>
         {links.map((item, id) => (
-          <div className="my-12 py-8 px-8  font-sil text-2xl" key={id}>
+          <div className="my-12 py-8 px-8  font-satisfy text-2xl" key={id}>
             <Link
               href={item.link}
               className="flex items-center  justify-center gap-4"

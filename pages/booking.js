@@ -26,7 +26,7 @@ export default function Booking() {
     e.preventDefault();
 
     if (!name || !mail || !phone || !msg) {
-      toast.error("Please enter your full name !", {
+      toast.error("Please fill all details !", {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -82,6 +82,8 @@ export default function Booking() {
     notify();
     console.table(formData);
   };
+
+  
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);

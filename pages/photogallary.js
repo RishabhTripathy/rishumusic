@@ -63,14 +63,14 @@ export default function PhotoGallary() {
         transition={{
           delay: 0.2,
         }}
-        className="text-5xl font-bold font-satisfy text-center"
+        className="text-5xl font-bold font-logo text-center"
       >
         Photo Gallery
       </motion.h1>
    
       <div className="grid gap-8 px-4  md:px-32 my-16 grid-cols-2 md:grid-cols-3">
         {pics.map((e, id) => (
-          <div key={id} className="rounded-3xl overflow-hidden ">
+          <div key={id} className="overflow-hidden rounded-3xl">
             <Image
               src={e.img}
               alt=""

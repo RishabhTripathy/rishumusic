@@ -17,7 +17,7 @@ export default function HomePage() {
       <Navbar />
       <div className="">
    
-        <div className="grid grid-cols-1 relative gap-8 md:gap-0 md:grid-cols-2 md:m-14 p-12  rounded-3xl ">
+        <div className="grid grid-cols-1 relative gap-8 md:gap-0 md:grid-cols-2 md:m-14 p-4 md:p-12  rounded-xl ">
         
           <div className="grid-cols-1 flex justify-center">
             <motion.div
@@ -32,6 +32,7 @@ export default function HomePage() {
                 ease: "easeInOut",
                 times: [0, 0.2, 0.5, 0.8, 1],
               }}
+              className=""
             >
               <Image
                 src={rishu}
@@ -39,7 +40,7 @@ export default function HomePage() {
                 width={500}
                 height={500}
                 priority
-                className="rounded-3xl aspect-square object-cover"
+                className="rounded-3xl aspect-[5/6] lg:aspect-square object-cover"
               />
             </motion.div>
           </div>
@@ -63,7 +64,7 @@ export default function HomePage() {
                   scale: 1.1,
                   color: "#f8e112",
                 }}
-                className="border-2 hover:text-black hover:bg-white font-bold font-satisfy bg-transparent tracking-wider duration-100  md:text-2xl py-2 px-8 rounded-full"
+                className="border-2 hover:text-black hover:bg-white font-bold font-logo bg-transparent tracking-wider duration-100  md:text-2xl py-2 px-8 rounded-full"
               >
                 <Link
                   target={"_blank"}
@@ -77,7 +78,7 @@ export default function HomePage() {
                   scale: 1.1,
                   color: "#f8e112",
                 }}
-                className="border-2 hover:text-black hover:bg-white font-bold font-satisfy bg-transparent tracking-wider duration-100  md:text-2xl py-2 px-8 rounded-full"
+                className="border-2 hover:text-black hover:bg-white font-bold font-logo bg-transparent tracking-wider duration-100  md:text-2xl py-2 px-8 rounded-full"
               >
                 <Link
                   target={"_blank"}

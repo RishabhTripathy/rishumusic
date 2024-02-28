@@ -12,7 +12,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sil: ["Shadows Into Light", "cursive"],
-      satisfy: ["Satisfy", "cursive"],
+      satisfy: ["Namdhinggo", "serif"],
       logo: ["Calligraffitti", "cursive"],
     },
   },
