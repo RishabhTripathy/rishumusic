@@ -35,7 +35,7 @@ export default function Aboutme() {
         />
       </div>
 
-      <p className=" mx-12   md:px-16 font-satisfy text-2xl">
+      <p className=" mx-4   md:px-16 font-satisfy text-2xl">
         Introducing Rishabh Tripathy, an exceptional singer, lyricist, composer,
         and skilled musician proficient in guitar and music production. With
         their captivating voice and profound songwriting abilities, Rishabh
