@@ -71,7 +71,7 @@ export default function Nav() {
           className=" rotate-[-3deg]  md:ml-12   text-center tracking-widest  py-4 "
         >
           <a className=" cursor-pointer  italic   font-logo   md:text-3xl font-bold">
-            Rishabh
+            Rishabh Music
           </a>
         </motion.div>
       </div>
